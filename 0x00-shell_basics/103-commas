@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1F | sed 's/\./,./g' | sed '1i.,..' | sort -u -n | tr '\n' ','
+ls -xamp
