@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(tr -d 'cC' <<< $input)
+tr -d c | tr -d C
